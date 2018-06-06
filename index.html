@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aroma Cake Supply</title>
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -10,79 +10,54 @@
 <script  src="https://code.jquery.com/jquery-1.12.4.min.js"   ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
 <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <script src="js/jquery.bxslider.js"></script>
-<script>
-$(document).ready(function(){
-	
-	$('.slider2').bxSlider({
-	   minSlides:4,
-     maxSlides: 4,
-  slideWidth: 205,
-  slideMargin: 10,
-	 auto:true,
-	   controls:false,
-	   pager:false,  
-	    
 
-  });
-  	$('.slider3').bxSlider({
-	   minSlides:4,
-     maxSlides: 4,
-  slideWidth: 205,
-  slideMargin: 10,
-	 auto:true,
-	   controls:false,
-	   pager:false,  
-	    
-
-  });
-  
-})
-</script>
 </head>
 <body>
 <div class="container-fluid">
-  <div class="row nomargin justify-content-between">
+  <div class="row nomargin justify-content-between pt20">
     <div class="col-md-2 logo"><a href="index.html"><img src="images/logo.png" alt="Aroma" /></a></div>
-    <div class="col-md-6 pt20 justify-content-ce">
+    <div class="col-md-5 justify-content-center">
       <form class="navbar-form" role="search">
         <div class="input-group add-on search-input">
           <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
           <div class="input-group-btn">
-            <button class="btn btn-default" type="submit"><i class="icon-search icon-2x"></i></button>
+            <button class="btn btn-default search-input-align" type="submit"><i class="icon-search search-size"></i></button>
           </div>
         </div>
       </form>
     </div>
-    <div class="col-md-4 pt20">
-      <ul class="header-right float-right row">
-        <li><a href="#">Login/Signup</a></li>
-        <li><i class="icon-phone-sign"></i>9949170751</li>
-        <li>
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Java Script <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">JavaScript</a></li>
-            </ul>
-          </div>
-        </li>
+    <div class="col-md-5 nopadding">
+      <ul class="header-right nopadding pull-right">
+      <li class="dropdown open"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><span class="fa fa-map-marker"></span>Track Order</a></li>
+      
+      
+      <li> <a href="#" ><span class="fa fa-question-circle"></span>Help Center</a></li>
+      <li><a href="#"> <span class="fa fa-user"></span>Account</a></li>
+      <li><a href="#"> <span class="fa fa-shopping-cart"></span>Cart</a></li>
+      <li><a href="#"> <span class="fa  fa-inr"></span>Currency <i class="fa fa-caret-down"></i></a></li>
       </ul>
+      <div>
+      
+      </div>
+      
     </div>
   </div>
 </div>
+
 <div class="row nomargin">
   <nav class="navbar navbar-expand-lg navbar-light bg-nav col-sm-12">
     <div class="navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav"> <a class="nav-item nav-link active" href="#">Same day delivery</a> <a class="nav-item nav-link" href="#">cakes, cupcakes, by occasion</a> <a class="nav-item nav-link" href="#">Theme cakes(from just bake)</a> <a class="nav-item nav-link" href="#">Customized cakes</a> </div>
+      <div class="navbar-nav"> <ul><li class="dropdown"><a class="nav-item nav-link active" href="#">Same day<i class="fa fa-angle-down"></i></a></li><li> <a class="nav-item nav-link" href="#">Birthday<i class="fa fa-angle-down"></i></a></li><li> <a class="nav-item nav-link" href="#">Anniversary<i class="fa fa-angle-down"></i></a></li><li> <a class="nav-item nav-link" href="#">Occasions<i class="fa fa-angle-down"></i></a></li></ul></div>
     </div>
   </nav>
 </div>
 <div class="clearfix"></div>
-<div class="row nomargin   mb20">
+<div class="row nomargin mb20">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -96,106 +71,170 @@ $(document).ready(function(){
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-3">
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"> Rates</a> </h4>
-          </div>
-          <div id="collapse2" class="panel-collapse  ">
-            <div class="panel-body">
-              <ul>
-                <li><a href="#">Price Low to High</a></li>
-                <li><a href="#">Price Low to High</a></li>
-                <li><a href="#">Price Low to High</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> Cakes</a> </h4>
-          </div>
-          <div id="collapse1" class="panel-collapse ">
-            <div class="panel-body">
-              <ul>
-                <li><a href="#">Fruit Cakes</a></li>
-                <li><a href="#">Chocolate Cakes</a></li>
-                <li><a href="#">Pineapple Cakes</a></li>
-                <li><a href="#">Strawberry Cakes</a></li>
-                <li><a href="#">Premium Cakes</a></li>
-                <li><a href="#">Half Kg Cakes</a></li>
-                <li><a href="#">1 Kg Cakes</a></li>
-                <li><a href="#">Express Cakes</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-9 rightside-content">
+<div class="content-container">
+  <div class="row nomargin">
+   
+    <div class="col-12 rightside-content">
       <h2>Birthday Cakes <a href="#" class="btn btn-danger pull-right">View All </a></h2>
-      <div class="sliderblock">
-        <ul class="slider2">
-          <li><div class="slide-content"><img src="images/classic-chips-1kg-cake.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div> </li>
-          <li><div class="slide-content"><img src="images/sumptuous-strawberry-1kg-cake.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div></li>
-          <li><div class="slide-content"><img src="images/white-fantasy-1kg.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div></li>
-          <li><div class="slide-content"><img src="images/tempting-temptations-1kg.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div></li>
-          <li><div class="slide-content"><img src="images/rusty-rasberry-1kg-cake.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div></li>
-        </ul>
-      </div>
-      
-       <h2>
-Anniversary   Cakes <a href="#" class="btn btn-danger pull-right">View All </a></h2>
-      <div class="sliderblock">
-        <ul class="slider3">
-          <li><div class="slide-content"><img src="images/classic-chips-1kg-cake.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div> </li>
-          <li><div class="slide-content"><img src="images/sumptuous-strawberry-1kg-cake.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div></li>
-          <li><div class="slide-content"><img src="images/white-fantasy-1kg.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div></li>
-          <li><div class="slide-content"><img src="images/tempting-temptations-1kg.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div></li>
-          <li><div class="slide-content"><img src="images/rusty-rasberry-1kg-cake.jpg" />
-            <h3>Rusty Rasberry Large</h3>
-            <p>MRP: Rs. 900</p>
-            <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></div></li>
-        </ul>
-      </div>
+		<div class="">
+			<ul class="slider2">
+				<li>
+					<a href="#" class="slide-content">
+						<img src="images/classic-chips-1kg-cake.png" class="img-fluid" />
+						<p class="pt10">Rusty Rasberry Large</p>
+						<p class="cake-price">MRP: Rs. 900</p>
+						<span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span>
+					</a> 
+				</li>
+
+				<li>
+					<a href="#" class="slide-content">
+						<img src="images/sumptuous-strawberry-1kg-cake.png" class="img-fluid"/>
+						<p class="pt10">Rusty Rasberry Large</p>
+						<p class="cake-price">MRP: Rs. 900</p>
+						<span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span>
+					</a>
+				</li>
+
+				<li>
+						<a href="#" class="slide-content">
+							<img src="images/white-fantasy-1kg.png" class="img-fluid"/>
+							<p class="pt10">Rusty Rasberry Large</p>
+							<p class="cake-price">MRP: Rs. 900</p>
+							<span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span>
+						</a>
+				</li>
+
+				<li>
+					<a href="#" class="slide-content">
+						<img src="images/tempting-temptations-1kg.png" class="img-fluid"/>
+						<p class="pt10">Rusty Rasberry Large</p>
+						<p class="cake-price">MRP: Rs. 900</p>
+						<span class="stars">
+						<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
+						</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="slide-content">
+						<img src="images/rusty-rasberry-1kg-cake.png" class="img-fluid" />
+						<p class="pt10">Rusty Rasberry Large</p>
+						<p class="cake-price">MRP: Rs. 900</p>
+						<span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+ 
     </div>
   </div>
+  
+  
+  
+ <div class="row nomargin pt20">
+   
+    <div class="col-12 rightside-content">
+      <h2>Birthday Cakes <a href="#" class="btn btn-danger pull-right">View All </a></h2>
+		<div class="">
+			<ul class="slider2">
+				<li>
+					<a href="#" class="slide-content">
+						<img src="images/classic-chips-1kg-cake.png" class="img-fluid" />
+						<p class="pt10">Rusty Rasberry Large</p>
+						<p class="cake-price">MRP: Rs. 900</p>
+						<span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span>
+					</a> 
+				</li>
+
+				<li>
+					<a href="#" class="slide-content">
+						<img src="images/sumptuous-strawberry-1kg-cake.png" class="img-fluid"/>
+						<p class="pt10">Rusty Rasberry Large</p>
+						<p class="cake-price">MRP: Rs. 900</p>
+						<span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span>
+					</a>
+				</li>
+
+				<li>
+						<a href="#" class="slide-content">
+							<img src="images/white-fantasy-1kg.png" class="img-fluid"/>
+							<p class="pt10">Rusty Rasberry Large</p>
+							<p class="cake-price">MRP: Rs. 900</p>
+							<span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span>
+						</a>
+				</li>
+
+				<li>
+					<a href="#" class="slide-content">
+						<img src="images/tempting-temptations-1kg.png" class="img-fluid"/>
+						<p class="pt10">Rusty Rasberry Large</p>
+						<p class="cake-price">MRP: Rs. 900</p>
+						<span class="stars">
+						<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
+						</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="slide-content">
+						<img src="images/rusty-rasberry-1kg-cake.png" class="img-fluid" />
+						<p class="pt10">Rusty Rasberry Large</p>
+						<p class="cake-price">MRP: Rs. 900</p>
+						<span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+ 
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+<div class="content-container">
+	<div class="row nomargin pt20">	
+	
+	<div class="col-md-4">
+		
+		<div class="service-block rgba-purple no-margin-bottom content-sm equal-height-column"> 
+			<i class="icon-custom icon-md rounded icon-color-light icon-line icon-rocket"></i> 
+			<header class="heading-md font-light">Convenience</header> 
+			<p class="no-margin-bottom font-light">We deliver from Early Morning 7AM to Midnight to your doorstep. Order before 10:30pm for Same Day Delivery.</p> 
+		</div>
+		
+	</div>
+	<div class="col-md-4">
+		
+		<div class="service-block rgba-red no-margin-bottom content-sm equal-height-column"> 
+			<i class="icon-custom icon-md rounded icon-color-light icon-line icon-earphones-alt"></i> 
+			<header class="heading-md font-light">Customer Service</header> 
+			<p class="no-margin-bottom font-light">We value your experience, so we are at your service whenever you need.</p> 
+		</div>
+		
+	</div>
+	<div class="col-md-4">
+		
+		<div class="service-block rgba-blue no-margin-bottom content-sm equal-height-column"> 
+			<i class="icon-custom icon-md rounded icon-color-light icon-line icon-directions"></i> 
+			<header class="heading-md font-light">Best Quality</header> 
+			<p class="no-margin-bottom font-light">Make your special occasion more beautiful by ordering freshly baked cakes and premium gifts from CakeZone.</p> 
+		</div>
+		
+	</div>
+	
+	
+	
+	
+	</div>
+	
+	
+	
 </div>
 <div class="card-footer" style="background:#000;">
   <div class="container">
     <div class="pt20"><img src="images/footer-logo.png" alt="AROMA" /></div>
     <div class="row pt20">
-      <div class="col-md-2">
+      <div class="col-md-3">
         <ul class="footer-links">
           <li><a href="#">About Us</a></li>
           <li><a href="#">blog</a></li>
@@ -203,7 +242,7 @@ Anniversary   Cakes <a href="#" class="btn btn-danger pull-right">View All </a><
           <li><a href="#">Contact Us</a></li>
         </ul>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <ul class="footer-links">
           <li><a href="#">FAQ</a></li>
           <li><a href="#">rating and reviews section</a></li>
